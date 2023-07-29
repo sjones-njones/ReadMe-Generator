@@ -11,6 +11,7 @@ This app requires Inquirer to be installed to run properly.
 ## Usage
 
 https://github.com/sjones-njones/ReadMe-Generator.git
+https://watch.screencastify.com/v/fAtXPlDPPuWCwNxPhhQa
 
 ### To run this app:
 * open console
