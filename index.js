@@ -22,11 +22,6 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'description',
-    message: 'Give a description of your project.',
-  },
-  {
-    type: 'input',
     name: 'usage',
     message: 'How should this project be used?',
   },
