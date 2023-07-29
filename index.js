@@ -1,9 +1,9 @@
+// packages required 
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Include packages needed for this application
-// TODO: Create an array of questions for user input
+// questions for user
 const questions = [
   {
     type: 'input',
@@ -53,11 +53,12 @@ const questions = [
   }
 ];
 
-// // TODO: Create a function to write README file
+// function used to create readme file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log("Sucessfully created README.md!"));
 }
-// // TODO: Create a function to initialize app
+
+// will run upon loading page
 function init() { 
 inquirer
   .prompt(questions)
@@ -66,5 +67,6 @@ inquirer
     writeToFile('./output/README.md', readMeContent);
   });
 }
-// // Function call to initialize app
+
+// calls init function
 init();
