@@ -28,7 +28,7 @@ This app requires Inquirer to be installed to run properly.
 
 ## Usage
 
-open console, enter node index.js, answer prompts, your file can be found in the output folder
+https://github.com/sjones-njones/ReadMe-Generator.git
 
 ## Contributing
 

@@ -20,6 +20,13 @@ https://watch.screencastify.com/v/fAtXPlDPPuWCwNxPhhQa
 * answer prompts
 * your file can be found in the output folder
 
+![Alt text](./assets/image.png)
+![Alt text](./assets/images.png)
+![Alt text](./assets/image-4.png)
+![Alt text](./assets/image-1.png)
+![Alt text](./assets/image-2.png)
+![Alt text](./assets/image-3.png)
+
 ## Credits
 
 While I didn't work directly with anyone on this project, my cohort group helped answer many of my questions. I really enjoy the collaborative nature of this program.  I also received help from a tutor. I also used the following sites for help and suggestions.
