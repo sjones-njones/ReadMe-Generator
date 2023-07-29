@@ -12,6 +12,11 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'description',
+    message: 'Please describe your project.'
+  },
+  {
+    type: 'input',
     name: 'installation',
     message: 'Explain how to install your project.',
   },
@@ -35,6 +40,16 @@ const questions = [
     name: 'license',
     message: 'Which license would you like to use?',
     choices: ['N/A', 'MIT License', 'GNU General Public License v3.0', 'Apache Licence 2.0', 'Mozilla Public License 2.0', 'The Unlicense']
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?'
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub ID?'
   }
 ];
 
