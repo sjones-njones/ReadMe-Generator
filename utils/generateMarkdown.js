@@ -38,6 +38,31 @@ function renderLicenseSection(license) {
 
 // layout for readme inputting the variables given by user
 function generateMarkdown({ title, description, installation, usage, contributers, license, test, email, github }) {
+if (description === undefined){ 
+  description = 'N/A';
+}
+if (installation === undefined){ 
+  installation = 'N/A';
+}
+if (usage === undefined){ 
+  usage = 'N/A';
+}
+if (contributers === undefined){ 
+  contributers = 'N/A';
+}
+if (license === undefined){ 
+  license = 'N/A';
+}
+if (test === undefined){ 
+  test = 'N/A';
+}
+if (email === undefined){ 
+  email = 'N/A';
+}
+if (github === undefined){ 
+  github = 'N/A';
+}
+
   return `# ${title}
  
 ${renderLicenseSection(license)}
