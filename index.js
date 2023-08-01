@@ -17,7 +17,7 @@ const checklist = [
     message: 'Which sections would you like to include in your README file?',
     choices: sections
   }
-]
+];
 
 function init() {
   inquirer
